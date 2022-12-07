@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device=width, initial-scale=1">
-        <link rel="stylesheet" href="Style.css">
 
-    </head>
-    <body>
+<head>
+  <meta name="viewport" content="width=device=width, initial-scale=1">
+  <link rel="stylesheet" href="Style.css">
 
+</head>
+
+<body>
+  <div class="area">
+
+    <!-- Created a wrapper div to called nav to contain all buttons you may want to add -->
+    <div class="nav">
       <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" style="display:none" />
         <label class="menu__btn" for="menu__toggle">
           <span></span>
         </label>
-    
+
         <ul class="menu__box">
           <li><a class="menu__item" href="#">Blog</a></li>
           <li><a class="menu__item" href="#">Git Hub</a></li>
           <li><a class="menu__item" href="#">About Me</a></li>
         </ul>
       </div>
-
-      <div class="context">
-        <h1>Hugo Spear </h1>
+      <!-- Check out the css to see what the styling is doing. 
+      Its kinda mental how its working with positions/flex box so you may need to look it up a little. 
+      Google flexbox for more info -->
+      <div class="btn btn-5">Blog</div>
     </div>
 
+    <div class="context">
+      <h1>Hugo Spear </h1>
+    </div>
 
-      <div class="area" >
-        <button class="btn">Blog</button>
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
-    </body>
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</body>
+
 </html>
