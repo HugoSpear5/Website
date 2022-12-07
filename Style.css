@@ -223,6 +223,9 @@ body{
 
 }
 
+/* All of the .btn, .btn-5 and .btn-5:hover is from your website. whenever you see an example online
+you basically just need to copy and paste the css here and the html in the html file then wire up the class/id names */
+
 .btn {
   z-index:2;
   cursor: pointer;
