@@ -3,50 +3,47 @@
 
 <head>
   <meta name="viewport" content="width=device=width, initial-scale=1">
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="Style.css">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); </style>
+  <script src="https://kit.fontawesome.com/d228af265e.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
   <div class="area">
 
-    <!-- Created a wrapper div to called nav to contain all buttons you may want to add -->
-    <div class="nav">
-      <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" style="display:none" />
-        <label class="menu__btn" for="menu__toggle">
-          <span></span>
-        </label>
-
-        <ul class="menu__box">
-          <li><a class="menu__item" href="#">Blog</a></li>
-          <li><a class="menu__item" href="#">Git Hub</a></li>
-          <li><a class="menu__item" href="#">About Me</a></li>
-        </ul>
+    <!-- Created a wrapper div to called nav to contain all buttons I may want to add -->
+    <nav class="nav">
+      <div>
+        <img class="logo" src="icon1.png">
+        <a class="btn btn-5" href="https://digitalbootcamps489132825.wordpress.com/home/" target="_blank">Blog</a>
+        <a class="btn btn-6" href="https://github.com/HugoSpear5" target="_blank">Git Hub</a>
+        <div class="btn btn-7">Home</div>
       </div>
-      <!-- Check out the css to see what the styling is doing. 
-      Its kinda mental how its working with positions/flex box so you may need to look it up a little. 
-      Google flexbox for more info -->
-      <div class="btn btn-5">Blog</div>
-    </div>
-
-    <div class="context">
-      <h1>Hugo Spear </h1>
-    </div>
-
-    <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    </nav>
   </div>
+
+  <div class="context">
+    <div class="hugo-spear">
+      <h1>
+      Hugo Spear
+      </h1>
+    </div>
+      <br>
+    <div class="coding-portfolio">
+      <h1>
+      Coding Portfolio. 
+      </h1>
+      <br>
+      <br>
+    </div>
+    <div class="tagline">
+      <p> Take a look around!
+      </p>
+    </div>
+  </div>
+
 </body>
 
 </html>
