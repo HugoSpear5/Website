@@ -279,6 +279,10 @@ section:nth-child(2){
 section .container {
 	margin: 0;
 	margin-bottom: 0;
+	display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
 section h2 {
