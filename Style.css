@@ -12,10 +12,10 @@ section {
 }
 
 .logo {
-  height: 55px;
-  width: 55px;
-  padding-top: 10px;
-  padding-left: 10px;
+  height: 150px;
+  width: 150px;
+  margin-left: -40px;
+  margin-top: -40px;
   animation: fadeIn 300ms ease-in;
   cursor: pointer;
   transition: all .2s ease-in-out;
@@ -82,6 +82,7 @@ section {
   animation-fill-mode: both;
 }
 
+/* Animation for text*/
 @keyframes article-load {
 0%{
   transform: translateY(-20px);
